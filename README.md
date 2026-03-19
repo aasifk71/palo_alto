@@ -13,7 +13,7 @@ An AI-powered career navigator that bridges the "skills gap" for graduates and c
 
 | Field | Details |
 |------|--------|
-| Name | **[Your Name]** |
+| Name | **[Mohd Aasif]** |
 | Scenario | **Scenario 2 — Skill-Bridge Career Navigator** |
 | Submission Date | **March 20, 2026** |
 
@@ -36,11 +36,12 @@ git clone https://github.com/[YourUsername]/skill-bridge.git
 cd skill-bridge
 ```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
+```bash
 npm install
+```
 
-
-3️⃣ Compile the deterministic C++ engine
+### 3️⃣ Compile the deterministic C++ engine
 # Windows
 g++ engine/matcher.cpp -o engine/matcher
 
