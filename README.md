@@ -59,7 +59,7 @@ npm start
 
 
 
-###⚙️ Setup AI Features
+### ⚙️ Setup AI Features
 cp .env.example .env
 
 
@@ -67,7 +67,7 @@ cp .env.example .env
 
 GEMINI_API_KEY=your_key_here
 YOUTUBE_API_KEY=your_key_here
-##🧪 Run Tests
+##  🧪 Run Tests
 ```bash
 node test.js
 ```
@@ -82,7 +82,7 @@ No clear roadmap to a role
 
 Overwhelming learning paths
 ---
-##💡 The Solution
+## 💡 The Solution
 
 Skill-Bridge acts as a Career Architect, combining deterministic logic with AI intelligence.
 
@@ -99,7 +99,7 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
 
 
 
-##⚙️ Tech Stack
+## ⚙️ Tech Stack
 | Layer       | Tech              | Why                                  |
 | ----------- | ----------------- | ------------------------------------ |
 | 🖥️ Backend | Node.js (Express) | Async API orchestration              |
@@ -110,7 +110,7 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
 
 ---
 
-🏗️ Architecture
+## 🏗️ Architecture
 ```
 ┌───────────────────────────────────────────────┐
 │ Frontend (Vanilla JS + Tailwind)              │
@@ -132,8 +132,8 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
     │ (Synthetic) │ │ (Set-Difference)     │
 
 ```
-  ##🤖 AI & Logic Deep Dive
-###🔁 Hybrid Engine
+  ## 🤖 AI & Logic Deep Dive
+### 🔁 Hybrid Engine
 
 Skill-Bridge uses Dual-Layer Analysis:
 
@@ -142,7 +142,7 @@ Quantitative (C++) → Exact skill match score
 Qualitative (AI) → Explains skill gaps
 
 
-###🔄 Fallback Engine
+### 🔄 Fallback Engine
 
 If AI fails, system switches to Set-Difference Algorithm:
 User Skills: [A, B]
@@ -151,9 +151,9 @@ Role Skills: [A, B, C, D]
 Missing Skills: [C, D]
 
 
-##🧪 Tests
+## 🧪 Tests
 
-###🚀 Starting Skill-Bridge Test Suite...
+### 🚀 Starting Skill-Bridge Test Suite...
 
 ✅ Happy Path: C++ Matcher Engine
 ✓ Identical skills → 100% match
@@ -165,7 +165,7 @@ Missing Skills: [C, D]
 ✨ All tests passed!
   ---  
 
- ##⚖️ Responsible AI
+ ## ⚖️ Responsible AI
  | Principle         | Implementation               |
 | ----------------- | ---------------------------- |
 | 🔍 Transparency   | AI vs Fallback clearly shown |
@@ -175,8 +175,8 @@ Missing Skills: [C, D]
 ---
 
 
-##🔀 Tradeoffs & Future Scope
-###✅ Priorities
+## 🔀 Tradeoffs & Future Scope
+### ✅ Priorities
 
 Performance (C++)
 
@@ -184,7 +184,7 @@ UI Experience
 
 System Resilience
 ---
-##🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 GitHub Skill Extraction
 
@@ -192,7 +192,7 @@ LinkedIn Integration
 
 Resume PDF Parser
 
-##🔧 AI Tools Disclosure
+## 🔧 AI Tools Disclosure
 
 Used AI (Gemini / ChatGPT) for:
 
