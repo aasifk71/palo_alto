@@ -122,7 +122,7 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
 ## 📁 Project Structure
 
 ```bash
-Skill-Bridge follows a **modular and layered architecture**, separating concerns across data, computation, services, and UI.
+Skill-Bridge follows a "modular and layered architecture", separating concerns across data, computation, services, and UI.
 ```
 ```bash
 skill-bridge/
