@@ -34,7 +34,7 @@ UI Overview → Skill Tagging → C++ Engine Computation → AI Gap Analysis →
 ```bash
 git clone https://github.com/[YourUsername]/skill-bridge.git
 cd skill-bridge
-
+```
 
 2️⃣ Install dependencies
 npm install
