@@ -59,19 +59,20 @@ npm start
 
 
 
-⚙️ Setup AI Features
+###⚙️ Setup AI Features
 cp .env.example .env
 
 
-Add the following in .env:
+## Add the following in .env:
 
 GEMINI_API_KEY=your_key_here
 YOUTUBE_API_KEY=your_key_here
-🧪 Run Tests
+##🧪 Run Tests
+```bash
 node test.js
+```
 
-
-🎯 The Problem
+## 🎯 The Problem
 
 Students and early-career professionals often face a "knowledge wall"—they have academic foundations but lack the specific technical stack required by job postings.
 
@@ -80,8 +81,8 @@ Information scattered across platforms
 No clear roadmap to a role
 
 Overwhelming learning paths
-
-💡 The Solution
+---
+##💡 The Solution
 
 Skill-Bridge acts as a Career Architect, combining deterministic logic with AI intelligence.
 
@@ -93,8 +94,12 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
 | 🎨 Glassmorphic UI       | Tailwind CSS premium design               |
 | 🔒 Safety First          | Rule-based fallback if AI fails           |
 
+---
 
-⚙️ Tech Stack
+
+
+
+##⚙️ Tech Stack
 | Layer       | Tech              | Why                                  |
 | ----------- | ----------------- | ------------------------------------ |
 | 🖥️ Backend | Node.js (Express) | Async API orchestration              |
@@ -103,9 +108,10 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
 | 🎨 Frontend | Tailwind CSS      | Modern UI system                     |
 | 🧪 Testing  | Node Assert       | Lightweight testing                  |
 
-
+---
 
 🏗️ Architecture
+```
 ┌───────────────────────────────────────────────┐
 │ Frontend (Vanilla JS + Tailwind)              │
 │ Skill Tags · Role Cards · Dashboard           │
@@ -125,9 +131,9 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
     │ roles.json  │◀┤ Rule-Based Fallback  │
     │ (Synthetic) │ │ (Set-Difference)     │
 
-
-    🤖 AI & Logic Deep Dive
-🔁 Hybrid Engine
+```
+  ##🤖 AI & Logic Deep Dive
+###🔁 Hybrid Engine
 
 Skill-Bridge uses Dual-Layer Analysis:
 
@@ -136,7 +142,7 @@ Quantitative (C++) → Exact skill match score
 Qualitative (AI) → Explains skill gaps
 
 
-🔄 Fallback Engine
+###🔄 Fallback Engine
 
 If AI fails, system switches to Set-Difference Algorithm:
 User Skills: [A, B]
@@ -145,9 +151,9 @@ Role Skills: [A, B, C, D]
 Missing Skills: [C, D]
 
 
-🧪 Tests
+##🧪 Tests
 
-🚀 Starting Skill-Bridge Test Suite...
+###🚀 Starting Skill-Bridge Test Suite...
 
 ✅ Happy Path: C++ Matcher Engine
 ✓ Identical skills → 100% match
@@ -157,28 +163,28 @@ Missing Skills: [C, D]
 ✓ Local roadmap returned
 
 ✨ All tests passed!
-    └─────────────┘ └──────────────────────┘
+  ---  
 
- ⚖️ Responsible AI
+ ##⚖️ Responsible AI
  | Principle         | Implementation               |
 | ----------------- | ---------------------------- |
 | 🔍 Transparency   | AI vs Fallback clearly shown |
 | 🔐 Security       | API keys via .env            |
 | 📊 Synthetic Data | No scraping used             |
 | 🔄 Reliability    | Always-working fallback      |
+---
 
 
-
-🔀 Tradeoffs & Future Scope
-✅ Priorities
+##🔀 Tradeoffs & Future Scope
+###✅ Priorities
 
 Performance (C++)
 
 UI Experience
 
 System Resilience
-
-🚀 Future Enhancements
+---
+##🚀 Future Enhancements
 
 GitHub Skill Extraction
 
@@ -186,7 +192,7 @@ LinkedIn Integration
 
 Resume PDF Parser
 
-🔧 AI Tools Disclosure
+##🔧 AI Tools Disclosure
 
 Used AI (Gemini / ChatGPT) for:
 
