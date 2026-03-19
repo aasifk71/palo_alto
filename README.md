@@ -1,3 +1,5 @@
+
+
 # 🌉 Skill-Bridge
 
 An AI-powered career navigator that bridges the "skills gap" for graduates and career switchers—providing a deterministic match score, personalized gap analysis, and a curated learning roadmap.
@@ -18,6 +20,8 @@ An AI-powered career navigator that bridges the "skills gap" for graduates and c
 | Submission Date | **March 20, 2026** |
 
 ---
+
+
 
 ## 🎥 Video Demo
 
@@ -57,16 +61,15 @@ npm start
 ```
 👉 Open: http://localhost:3000
 
-
+---
 
 ### ⚙️ Setup AI Features
 cp .env.example .env
-
-
 ## Add the following in .env:
-
+```bash
 GEMINI_API_KEY=your_key_here
 YOUTUBE_API_KEY=your_key_here
+```
 ##  🧪 Run Tests
 ```bash
 node test.js
@@ -175,30 +178,72 @@ Missing Skills: [C, D]
 ---
 
 
-## 🔀 Tradeoffs & Future Scope
-### ✅ Priorities
+## 🔀 Trade-offs & Future Scope
 
-Performance (C++)
+### ⚖️ Key Trade-offs
 
-UI Experience
+Every design decision in Skill-Bridge was made with a clear priority:  
+**reliability and clarity over unnecessary complexity.**
 
-System Resilience
+- ⚙️ **C++ vs JavaScript for Matching**  
+  Chose C++ for deterministic performance and consistency, at the cost of added integration complexity with Node.js.
+
+- 🤖 **AI Intelligence vs System Reliability**  
+  Leveraged AI for flexibility and explanation, but introduced a rule-based fallback to eliminate failure scenarios.
+
+- 🎨 **UI Polish vs Development Time**  
+  Focused on a clean, responsive Tailwind interface rather than heavy frameworks to maintain speed and simplicity.
+
+- 📊 **Feature Depth vs Time Constraints**  
+  Prioritized core functionality (matching + roadmap) over additional integrations to ensure a complete, working prototype.
+
 ---
+
+### 🎯 Design Priorities
+
+The system was intentionally optimized for:
+
+- ⚡ **Performance** → Fast, deterministic computation via C++  
+- 🎨 **User Experience** → Clean, intuitive interaction flow  
+- 🔄 **System Resilience** → Guaranteed output via fallback logic  
+
+> The goal was not just to build features, but to build a system that **always works under real-world conditions**.
+
+---
+
 ## 🚀 Future Enhancements
 
-GitHub Skill Extraction
+With more time, the system can evolve into a full-scale career intelligence platform:
 
-LinkedIn Integration
+- 🔗 **GitHub Skill Extraction**  
+  Automatically infer skills from repositories and contributions
 
-Resume PDF Parser
+- 💼 **LinkedIn Integration**  
+  Align user profiles with real-world job market data
+
+- 📄 **Resume Parser (PDF)**  
+  Extract and normalize skills directly from resumes
+
+- 🧠 **Smarter Recommendation Engine**  
+  Improve roadmap quality using feedback loops and ranking models
+
+- 📊 **Market-Aware Skill Mapping**  
+  Integrate job trends to recommend high-demand skills dynamically
+
+---
 
 ## 🔧 AI Tools Disclosure
 
-Used AI (Gemini / ChatGPT) for:
+AI tools (Gemini / ChatGPT) were used selectively to enhance development efficiency:
 
-UI scaffolding
+- UI scaffolding and layout structuring  
+- Debugging assistance and edge-case handling  
 
-Debugging
+### 🧠 Engineering Ownership
 
-All architecture and logic decisions were manually designed and verified.
+- All **system architecture, core logic, and design decisions** were independently designed  
+- AI was used as a **productivity tool**, not a decision-maker  
+
+> The focus was on **engineering judgment and system design**, not AI dependency.
+
 
