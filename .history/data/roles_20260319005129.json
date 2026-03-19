@@ -1,0 +1,23 @@
+{
+  "roles": [
+    {
+      "id": "software-engineer",
+      "title": "Software Engineer",
+      "category": "Software Engineering",
+      "levels": {
+        "junior": {
+          "required_skills": ["Python", "Git", "Linux", "REST APIs", "SQL"],
+          "nice_to_have": ["C++", "Docker"]
+        },
+        "mid": {
+          "required_skills": ["System Design", "Docker", "CI/CD", "Cloud Services", "Microservices"],
+          "nice_to_have": ["Kubernetes", "Terraform"]
+        },
+        "senior": {
+          "required_skills": ["System Architecture", "Technical Leadership", "Distributed Systems", "Security Architecture"],
+          "nice_to_have": ["Mentoring", "Go"]
+        }
+      }
+    }
+  ]
+}
