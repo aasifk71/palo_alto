@@ -116,6 +116,40 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
 ## 🏗️ Architecture
 
 ![Architecture Diagram](https://raw.githubusercontent.com/aasifk71/palo_alto/main/architecture.png)
+
+
+
+## 📁 Project Structure
+
+```bash
+Skill-Bridge follows a **modular and layered architecture**, separating concerns across data, computation, services, and UI.
+```
+```bash
+skill-bridge/
+│
+├── data/
+│   └── roles.json              # Synthetic dataset of job roles & required skills
+│
+├── engine/
+│   ├── matcher.cpp            # Core C++ matching engine (deterministic scoring)
+│   └── matcher.exe            # Compiled executable (used by backend)
+│
+├── public/
+│   ├── index.html             # Frontend UI (dashboard)
+│   └── script.js              # Client-side logic (skill input, API calls)
+│
+├── services/
+│   ├── aiService.js           # Handles Gemini AI integration (gap analysis)
+│   └── courseService.js       # Fetches learning resources (YouTube API)
+│
+├── .env                       # Environment variables (API keys)
+├── server.js                  # Express server (API orchestration layer)
+├── test.js                    # Test suite (core functionality validation)
+├── package.json               # Project dependencies & scripts
+└── package-lock.json          # Dependency lock file
+```
+
+
   ## 🤖 AI & Logic Deep Dive
 ### 🔁 Hybrid Engine
 
