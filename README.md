@@ -114,27 +114,8 @@ Skill-Bridge acts as a Career Architect, combining deterministic logic with AI i
 ---
 
 ## 🏗️ Architecture
-```
-┌───────────────────────────────────────────────┐
-│ Frontend (Vanilla JS + Tailwind)              │
-│ Skill Tags · Role Cards · Dashboard           │
-└──────────────────────┬────────────────────────┘
-                       │ REST / JSON
-┌──────────────────────┴────────────────────────┐
-│ Node.js Express Server                        │
-│ Orchestrator · Validation · API Routes        │
-└──────────┬───────────────┬──────────────┬─────┘
-           │               │              │
-    ┌──────┴──────┐ ┌──────┴───────┐ ┌────┴────┐
-    │ C++ Engine  │ │ Gemini AI    │ │ YouTube │
-    │ (Matcher)   │ │ (Gap Logic)  │ │ (API v3)│
-    └─────────────┘ └──────┬───────┘ └─────────┘
-           │               │ fail
-    ┌──────┴──────┐ ┌──────┴───────────────┐
-    │ roles.json  │◀┤ Rule-Based Fallback  │
-    │ (Synthetic) │ │ (Set-Difference)     │
 
-```
+![Architecture Diagram](https://raw.githubusercontent.com/aasifk71/palo_alto/main/architecture.png)
   ## 🤖 AI & Logic Deep Dive
 ### 🔁 Hybrid Engine
 
