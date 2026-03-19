@@ -42,16 +42,19 @@ npm install
 ```
 
 ### 3️⃣ Compile the deterministic C++ engine
-# Windows
+### Windows
+```bash
 g++ engine/matcher.cpp -o engine/matcher
-
-# Mac/Linux
+```
+### Mac/Linux
+```bash
 g++ engine/matcher.cpp -o engine/matcher
+```
 
-
-4️⃣ Start the server
+### 4️⃣ Start the server
+```bash
 npm start
-
+```
 👉 Open: http://localhost:3000
 
 
