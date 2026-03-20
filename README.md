@@ -17,7 +17,7 @@ An AI-powered career navigator that bridges the "skills gap" for graduates and c
 |------|--------|
 | Name | **Mohd Aasif** |
 | Scenario | **Scenario 2 — Skill-Bridge Career Navigator** |
-|Estimated Time Spent: | ** 6 hours|
+|Estimated Time Spent: | **6 hours**|
 | Submission Date | **March 20, 2026** |
 
 ---
