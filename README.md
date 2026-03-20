@@ -26,7 +26,13 @@ An AI-powered career navigator that bridges the "skills gap" for graduates and c
 
 ## 🎥 Video Demo
 
-📹 **Watch the walkthrough on YouTube →** *(Add Link Here)*  
+📹 **[Watch the walkthrough on YouTube](https://youtu.be/OIGSAP_ApDU)**
+
+---
+
+## 🌐 Live Demo
+
+🚀 **[Try Skill-Bridge Live](https://skill-bridge-f472.onrender.com/)**
 
 **Covers:**  
 UI Overview → Skill Tagging → C++ Engine Computation → AI Gap Analysis → Dynamic Roadmap Generation → Fallback Systems
